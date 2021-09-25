@@ -55,7 +55,8 @@ export default class Application extends EventEmitter {
   }
 
   _stopLoading() {
-    this._loading.style.display = "none";
+    //this._loading.style.display = "none";
+    this._loading.style.visibility = "hidden";
   }
 
   _render({ name, terrain, population }) {
